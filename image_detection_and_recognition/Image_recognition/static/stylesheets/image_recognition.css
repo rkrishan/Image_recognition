@@ -1,0 +1,54 @@
+marquee {
+	color: #4c4cff;
+	margin-bottom: 2%;
+}
+
+input[type="file"] {
+  margin-top: 3%;
+  cursor: pointer;
+}
+
+img {
+	width: 250px;
+	height: 200px;
+/*	margin-left: 10%;*/
+	cursor: pointer;
+}
+
+.notes, .file_details {
+	margin-top: 3%;
+}
+
+.go-btn {
+  border-radius: 25px;
+  font-weight: 800;
+  border: 1px solid #2c3e50;
+  margin-top: 10%;
+}
+
+.go-btn:hover {
+	background-color: #449d44;
+	color: #fff;
+	border: 1px solid #449d44;
+}
+
+.matched-images {
+	margin-bottom: 2%;
+}
+
+button[class="close"] {
+	color: #f00;
+}
+
+@media screen and (max-width: 1024px) {
+	body {
+		font-size: 11px;
+	}
+	.submit-btn {
+		 font-size: 11px;
+	}
+}
+
+.img-responsive {
+	margin-left: 40px;
+}
